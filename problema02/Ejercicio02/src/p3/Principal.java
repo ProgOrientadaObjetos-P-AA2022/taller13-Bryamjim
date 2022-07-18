@@ -5,11 +5,6 @@
  */
 package p3;
 
-import p1.MatriculaCampamento;
-import p1.MatriculaColegio;
-import p1.MatriculaEscuela;
-import p1.MatriculaJardin;
-import p1.MatriculaMaternal;
 import p2.TipoMatricula;
 
 /**
@@ -18,6 +13,7 @@ import p2.TipoMatricula;
  */
 public class Principal {
     public static void main(String[] args) {
+        
         TipoMatricula tipos = new TipoMatricula();
         
         MatriculaCampamento mcamp = new MatriculaCampamento();

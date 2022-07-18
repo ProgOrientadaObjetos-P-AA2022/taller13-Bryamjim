@@ -9,8 +9,8 @@ package p1;
  *
  * @author reroes
  */
-public class MatriculaMaternal {
-    private double tarifa;
+public class MatriculaMaternal extends Matricula{
+
     
         
     public void establecerTarifa(){

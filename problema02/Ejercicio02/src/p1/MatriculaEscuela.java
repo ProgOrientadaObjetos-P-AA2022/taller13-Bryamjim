@@ -9,8 +9,8 @@ package p1;
  *
  * @author reroes
  */
-public class MatriculaEscuela {
-    private double tarifa;
+public class MatriculaEscuela extends Matricula{
+    
     
     public void establecerTarifa(){
         // tarifa = costo libros + costo deportes + costo folletos + 

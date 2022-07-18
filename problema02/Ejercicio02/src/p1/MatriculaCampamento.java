@@ -9,8 +9,8 @@ package p1;
  *
  * @author reroes
  */
-public class MatriculaCampamento {
-    private double tarifa;
+public class MatriculaCampamento extends Matricula{
+
     
     public void establecerTarifa(){
         // tarifa = costo transporte + costo comida + costo instructores
