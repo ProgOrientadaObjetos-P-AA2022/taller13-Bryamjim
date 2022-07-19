@@ -3,22 +3,32 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package p1;
+package OpenClosedPrinciple;
+
+import p1.*;
 
 /**
  *
  * @author reroes
  */
-public class MatriculaJardin {
-    private double tarifa;
+public class MatriculaJardin extends Matricula{
     
-        
+    @Override
     public void establecerTarifa(){
         // tarifa = costo desayunos + costo libros + costo paseos
         tarifa = 50.2 + 140.2 + 40;
     }
         
+    @Override
     public double obtenerTarifa(){
         return tarifa;
+    }
+    
+    @Override
+    public String toString() {
+        String c = String.format("Tarifa: %.2f\n"
+                ,obtenerTarifa()
+        );
+        return c;
     }
 }

@@ -6,7 +6,7 @@
 package p2;
 
 import java.util.ArrayList;
-import p3.Correo;
+import DependencyInversionPrinciple.Correo;
 
 /**
  *
@@ -53,5 +53,4 @@ public class Estudiante {
         }
         return data;
     }
-
 }
