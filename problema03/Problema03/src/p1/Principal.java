@@ -85,7 +85,7 @@ public class Principal {
         c4.establecerCorreo();
         lista.add(c4);
         
-        UtPL ut = new UtPL();
+        Utpl ut = new Utpl();
         ut.establecerDominio();
         e.establecerUserName("micalva");// otro tipo de userName
         c5.establecerDominio(ut);

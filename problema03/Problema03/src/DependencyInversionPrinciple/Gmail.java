@@ -7,7 +7,7 @@ package DependencyInversionPrinciple;
 
 /**
  *
- * @author Usuario
+ * @author usuario
  */
 public class Gmail implements DominioG{
     private String dominio;

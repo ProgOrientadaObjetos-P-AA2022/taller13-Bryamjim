@@ -7,9 +7,9 @@ package DependencyInversionPrinciple;
 
 /**
  *
- * @author Usuario
+ * @author usuario
  */
-public class UtPL implements DominioG{
+public class Utpl implements DominioG{
     private String dominio;
     
     @Override

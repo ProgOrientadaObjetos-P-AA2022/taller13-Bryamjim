@@ -7,7 +7,7 @@ package DependencyInversionPrinciple;
 
 /**
  *
- * @author Usuario
+ * @author usuario
  */
 public class Outlook implements DominioG{
     private String dominio;

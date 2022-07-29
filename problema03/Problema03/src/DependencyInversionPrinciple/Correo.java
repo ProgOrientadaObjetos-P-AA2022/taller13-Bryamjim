@@ -6,7 +6,7 @@ package DependencyInversionPrinciple;
 
 /**
  *
- * @author Usuario
+ * @author usuario
  */
 public class Correo {
     private DominioG dominio;
